@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    background: #fff;
+    color: #5e5e5e;
+    font: 14px/2em sans-serif, SimSun, Arial
+}
+
+html,body{
+    height: 100%;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0
+}
+
+fieldset, img {
+    border: 0
+}
+
+:focus {
+    outline: 0
+}
+
+address, caption, cite, code, dfn, th, var, optgroup {
+    font-style: normal;
+    font-weight: 400
+}
+
+strong {
+    font-weight: 400
+}
+
+em {
+    font-style: normal
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+    font-family: sans-serif
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+code, kbd, samp, tt {
+    font-size: 100%
+}
+
+input, button, textarea, select {
+    *font-size: 100%;
+    border: 0
+}
+
+
+ol, ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption, th {
+    text-align: left
+}
+
+sup, sub {
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+:link, :visited, ins {
+    text-decoration: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+.cf:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.cf {
+    *zoom: 1
+}
+
+.l {
+    float: left
+}
+
+.r {
+    float: right
+}
+
+.clear {
+    height: 0;
+    overflow: hidden;
+    clear: both
+}
+
+.hide {
+    display: none
+}
+
+.btn.hide {
+    display: none
+}
+
+a.hidefocus {
+    outline: 0
+}
+
+button.hidefocus::-moz-focus-inner {
+    border: 0
+}
+
+a:focus {
+    outline: 0;
+    -moz-outline: 0
+}
+
+input, textarea {
+    outline: 0
+}
+
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background-color: transparent;
+    color: #323232
+}
+
+a:focus, a:active, a:hover {
+    outline: 0;
+    -moz-outline: 0
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.wordbreak {
+    word-break: break-all;
+    word-wrap: break-word
+}
+
+.font-10 {
+    font-size: 10px
+}
+[data-dpr="2"] .font-10 {
+    font-size: 20px
+}
+
+[data-dpr="2.5"] .font-10 {
+    font-size: 25px
+}
+
+[data-dpr="2.75"] .font-10 {
+    font-size: 28px
+}
+
+[data-dpr="3"] .font-10 {
+    font-size: 30px
+}
+
+[data-dpr="4"] .font-10 {
+    font-size: 40px
+}
+
+.font-12 {
+    font-size: 12px
+}
+[data-dpr="2"] .font-12 {
+    font-size: 24px
+}
+
+[data-dpr="2.5"] .font-12 {
+    font-size: 30px
+}
+
+[data-dpr="2.75"] .font-12 {
+    font-size: 33px
+}
+
+[data-dpr="3"] .font-12 {
+    font-size: 36px
+}
+
+[data-dpr="4"] .font-12 {
+    font-size: 48px
+}
+
+.font-14 {
+    font-size: 14px
+}
+[data-dpr="2"] .font-14 {
+    font-size: 28px
+}
+
+[data-dpr="2.5"] .font-14 {
+    font-size: 35px
+}
+
+[data-dpr="2.75"] .font-14 {
+    font-size: 38px
+}
+
+[data-dpr="3"] .font-14 {
+    font-size: 42px
+}
+
+[data-dpr="4"] .font-14 {
+    font-size: 56px
+}
+
+.font-16 {
+    font-size: 16px
+}
+[data-dpr="2"] .font-16 {
+    font-size: 32px
+}
+
+[data-dpr="2.5"] .font-16 {
+    font-size: 40px
+}
+
+[data-dpr="2.75"] .font-16 {
+    font-size: 44px
+}
+
+[data-dpr="3"] .font-16 {
+    font-size: 48px
+}
+
+[data-dpr="4"] .font-16 {
+    font-size: 64px
+}
+
+.b-w-1 {
+    border-width: 1px
+}
+[data-dpr="2"] .b-w-1 {
+    border-width: 2px
+}
+
+[data-dpr="2.5"] .b-w-1 {
+    border-width: 2.5px
+}
+
+[data-dpr="2.75"] .b-w-1 {
+    border-width: 2.75px
+}
+
+[data-dpr="3"] .b-w-1 {
+    border-width: 3px
+}
+
+[data-dpr="4"] .b-w-1 {
+    border-width: 4px
+}
+.text-overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
